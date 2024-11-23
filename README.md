@@ -1,23 +1,23 @@
 # BKAI-Polyp-Competition
-## Installation
-
-Clone the repository and navigate into the project directory:
-
-```bash
-git clone https://github.com/phanluu111/bkaineopolyp.git
+# Polyp-Segment
+## 1, Clone the project:
 ```
-## Move to directory
-```bash
-cd bkaineopolyp
+git clone https://github.com/Cr4nky04/BKAI-Polyp-Competition.git
 ```
+## 2, Download the checkpoint by this link 
+> [Google Drive](https://drive.google.com/file/d/1faLGPlM6uMI42PA3kgC3muLnOVNxubYO/view?usp=sharing)
 
-## Download the checkpoint 
-The checkpoint is saved in bkaineopolyp directory which named model.pth
-
-```bash
-https://drive.google.com/drive/folders/17YdTMeUjt1hFxw5GwhKg1ixVInyFEW43?usp=drive_link
+After download, you put the file in the folder Polyp-Segment
+## 3, Move to the project
 ```
-
-``` bash
-python3 infer.py --image_path image.jpeg
+cd bkai-polyp-competition
 ```
+## 4, Install requirements
+```
+pip install -r requirements.txt
+```
+## 5, Infer results
+```
+python3 infer.py --image_path path/to/the/image.jpeg
+```
+The results will locate in the folder prediction of the project.
